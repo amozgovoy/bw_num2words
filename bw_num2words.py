@@ -25,7 +25,7 @@ def solution(N):
     out = ''
     Pos = 0
 
-    for i in reversed(str(N)):
+    for i in reversed(strN):
         Pos += 1
         if length > 1 and strN[-2] == '1' and Pos == 1:
             out = NumToWord1[i]
