@@ -15,9 +15,9 @@ class TestIfnum2wordsIsCorrect(unittest.TestCase):
     def testNumber692(self):
         self.assertEqual(solution(692), "Six-Hundred Ninety Two")
     def testNumber1100(self):
-        self.assertEqual(solution(1100), "Error: the number is out of bound")
+        self.assertEqual(solution(1100), "Error: the number is out of bounds")
     def testNumberMinus1(self):
-        self.assertEqual(solution(-1), "Error: the number is out of bound")        
+        self.assertEqual(solution(-1), "Error: the number is out of bounds")        
 
 if __name__ == '__main__':
     unittest.main()
