@@ -18,7 +18,7 @@ def solution(N):
     elif N==1000:
         return "One-Thousand"
     elif N<0 or N>1000:
-        return "Error: the number is out of bound"
+        return "Error: the number is out of bounds"
     strN = str(N)
     length = len(strN)
 
